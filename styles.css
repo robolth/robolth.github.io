@@ -72,66 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   /*width:  50%;*/
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red */
-    font-size: 1em;
-  }
 
-  /*
-  .section {
-    padding: 5px;
-  }
-  */
-
-  .thumbnail {
-    width: 50%;
-  }
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; /* Yellow */
-    font-size: 1.2em;
-  }
-  .section {
-    padding: 10px;
-  }
-  .thumbnail {
-    width: 25%;
-  }
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #EEEEEE; /* Blue */
-    font-size: 1.3em;
-  }
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .page {
-    width: 960px;
-    margin: 0 auto;
-  }
-  .section {
-    padding: 20px;
-  }
-  .menu {
-    font-size: 1em;
-  }
-  .thumbnail {
-    width: 25%;
-  }
-}
 
 
 
