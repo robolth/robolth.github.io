@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  background-color: #B2D6FF;
+  /*background-color: #B2D6FF;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu {
-  background-color: #5995DA;
+  /*background-color: #5995DA;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-  background-color: #EAEDF0;
+  /*background-color: #EAEDF0;*/
   display: flex;
   flex-wrap: wrap;
   /*height: 600px;*/
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5995DA;
+  /*background-color: #5995DA;*/
 }
 
 .container:hover {
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #F09A9D; /* Red */
+    /*background-color: #F09A9D;*/ /* Red */
     font-size: 1em;
   }
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: #F5CF8E; /* Yellow */
+    /*background-color: #F5CF8E;*/ /* Yellow */
     font-size: 1.2em;
   }
   .section {
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #EEEEEE; /* Blue */
+    /*background-color: #EEEEEE;*/ /* Blue */
     font-size: 1.3em;
   }
   h1 {
