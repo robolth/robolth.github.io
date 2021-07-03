@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-/*  box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 .page {
@@ -70,78 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red */
-    font-size: 1em;
-  }
 
-  /*
-  .page {
-    padding: 10;
-  }
-  */
-
-  /*
-  .section, .header, .menu {
-    padding: 5;
-  }
-  */
-
-  .thumbnail {
-    width: 50%;
-  }
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; /* Yellow */
-    font-size: 1.2em;
-  }
-  .page {
-    padding: 20;
-  }
-  .section, .header, .menu {
-    padding: 10;
-  }
-  .thumbnail {
-    width: 25%;
-  }
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #EEEEEE; /* Blue */
-    font-size: 1.3em;
-  }
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .page {
-    padding: 20;
-    width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row wrap;
-  }
-  .section, .header, .menu {
-    padding: 20;
-  }
-  .menu {
-    font-size: 1em;
-  }
-  .thumbnail {
-    width: 25%;
-  }
-}
 
 
 
