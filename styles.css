@@ -71,15 +71,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .container{
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #5995DA;
-}
-
-.container:hover{
-  border: 1px solid #414141;
 }
 
 .thumbnail{
   width: 100%;
+}
+
+.thumbnail:hover{
+  width: 110%;
 }
 
 /* Mobile Styles */
