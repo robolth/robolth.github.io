@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-  /*background-color: #EAEDF0;*/
+  background-color: #EAEDF0;
   display: flex;
   flex-wrap: wrap;
   /*height: 600px;*/
