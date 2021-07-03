@@ -44,6 +44,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
 }
 
+.footer {
+  /*background-color: #B2D6FF;*/
+  font-size: 0.6em;
+}
+
 .menu {
   /*background-color: #5995DA;*/
   display: flex;
