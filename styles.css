@@ -145,6 +145,88 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+details.click[open] span.click {
+  /* on click, the left grid item is lost and the column gap is lost as well so
+   * compensate with the same value used for the column gap */
+  margin-left: var(--column-gap);
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  /* Create new stacking context for text pseudoelement (the :before one) */
+  position: relative;
+}
+
+details.click[open] span.click:after {
+  content: attr(title);
+  border: none;
+  font-size: .7rem;
+  text-align: justify;
+  align-self: center;
+  margin: 0;
+  height: min-content;
+  width: var(--cover-width);
+  background: #e6b725;
+  z-index: 998;
+  color: var(--fg-color);
+  padding: .7rem .6rem .5rem .7rem;
+  box-sizing: border-box;
+  transition: all .5s var(--hover-delay) var(--transition-fn);
+  /* Create new stacking context */
+  position: absolute;
+  top: 0;
+  border: 2px double #d49a1e;
+  border-top: 2px outset #ab6a2d;
+  -webkit-text-fill-color: black;
+  -webkit-background-clip: none;
+}
+
+details.click[open] span.click:before {
+  border: none;
+  background-color: var(--bg-color);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dracula-First-Edition-1897.jpg/344px-Dracula-First-Edition-1897.jpg);
+  width: var(--cover-width);
+  height: var(--cover-height);
+  background-size: var(--cover-bg-size);
+  image-rendering: optimizespeed;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  transition: all 0.5s var(--hover-delay) var(--transition-fn), background-image 5s var(--hover-delay) var(--transition-fn);
+  background-position-x: -35px;
+  background-position-y: -17px;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 8px;
+  display: block;
+  color: var(--blood);
+  /* Create new stacking context */
+  position: absolute;
+  top: calc(100% - var(--cover-height));
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 figcaption a {
   text-decoration: underline;
 }
