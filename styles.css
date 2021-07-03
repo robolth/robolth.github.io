@@ -70,8 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .thumbnail{
   width:  50%;
+  height: auto;
 }
 
+.thumbnail:hover{
+  border: 1px solid #fff
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
