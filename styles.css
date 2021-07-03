@@ -86,7 +86,9 @@ body {
   .section {
     padding: 10;
   }
-
+  .thumbnail {
+    width: 25%;
+  }
 }
 
 /* Desktop Styles */
@@ -100,6 +102,9 @@ body {
   }
   .section {
     padding: 15;
+  }
+  .thumbnail {
+    width: 50%;
   }
 }
 
