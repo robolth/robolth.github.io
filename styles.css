@@ -8,14 +8,12 @@
 .page {
   display: flex;
   flex-wrap: wrap;
-  padding:  10px;
 }
 
 
 .section {
   width: 100%;
   /*height: 300px;*/
-  padding:  10px;
 }
 
 .header {
@@ -80,6 +78,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
   }
 
+  .page {
+    padding: 10;
+  }
   .section {
     padding: 5;
   }
@@ -97,10 +98,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
   }
   .page {
-    padding: 40;
+    padding: 20;
   }
   .section {
-    padding: 30;
+    padding: 10;
   }
   .thumbnail {
     width: 25%;
@@ -127,8 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row wrap;
   }
   .section {
-    margin: 45;
-    padding: 60;
+    padding: 20;
   }
   .menu {
     font-size: 1em;
