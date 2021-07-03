@@ -66,8 +66,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 1.5em;
 }
 
-.thumbnail {
+
+.thumbnail:hover {
   /*width:  50%;*/
+
 }
 
 
@@ -148,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-#image3:hover
+#image3:target
 {
-  visibility: visible;
+  display: inline-block;
 }
