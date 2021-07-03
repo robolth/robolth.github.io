@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .thumbnail {
-    width: 50%;
+    width: 45%;
   }
 
 }
@@ -194,7 +194,6 @@ details.click[open] span.click:after {
 details.click[open] span.click:before {
   border: none;
   background-color: var(--bg-color);
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dracula-First-Edition-1897.jpg/344px-Dracula-First-Edition-1897.jpg);
   width: var(--cover-width);
   height: var(--cover-height);
   background-size: var(--cover-bg-size);
@@ -213,18 +212,6 @@ details.click[open] span.click:before {
   top: calc(100% - var(--cover-height));
   z-index: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 figcaption a {
