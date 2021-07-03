@@ -145,17 +145,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#image3
-{
+figcaption a {
+  text-decoration: underline;
+}
+
+body>figure.zoom {
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 2;
+  contain: layout paint;
+}
+
+figure.zoom, figure.zoom img, a.zoom {
   display: none;
 }
 
-#image3:target~* {
-  display:  none;
+figure.zoom:target~* {
+  display: none;
 }
 
-#image3:target
-{
+figure#image3:target {
   display: flex;
   flex-direction: column;
   top: 0;
@@ -168,7 +176,30 @@ h1, h2, h3, h4, h5, h6 {
   min-height: max-content;
 }
 
-#image3:target
-{
+figure.zoom:target a.zoom {
   display: initial;
 }
+
+figure.zoom:target img {
+  min-height: max-content;
+  max-width: min-content;
+  display: inline-flex;
+  object-fit: contain;
+  object-position: top;
+  height: max-content;
+  width: 95vw;
+  align-self: center;
+}
+
+figure.zoom figcaption {
+  display: initial;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px 5px;
+  position: sticky;
+  width: max-content;
+  margin: 0 auto;
+}
+
