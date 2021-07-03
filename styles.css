@@ -48,6 +48,10 @@
   margin-left: 1.5em;
 }
 
+.thumbnail {
+  width:  50%;
+}
+
 
 body {
   color: #414141;    /* Dark gray */
@@ -75,6 +79,11 @@ body {
   .section {
     padding: 10;
   }
+
+  .thumbnail {
+    width: 100%;
+  }
+
 }
 
 /* Desktop Styles */
@@ -88,6 +97,9 @@ body {
   }
   .section {
     padding: 15;
+  }
+  .thumbnail {
+    width: 100%;
   }
 }
 
