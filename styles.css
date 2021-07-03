@@ -245,7 +245,9 @@ figure.zoom:target~* {
   display: none;
 }
 
-figure#image3:target {
+figure#image3:target,
+figure#image5:target,
+figure#image10:target {
   display: flex;
   flex-direction: column;
   top: 0;
