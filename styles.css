@@ -17,10 +17,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-.nav {
+.social {
   display:  flex;
-
   align-items: center;
+}
+
+.logo {
+  height: auto;
+  width: 1em;
+  margin-right: .5em;
 }
 
 .container {
@@ -28,12 +33,4 @@ h1, h2, h3, h4, h5, h6 {
   /*float:  left;*/
   /*overflow: hidden;*/
 /*  width:  50%;*/
-}
-
-
-.logo {
-  /*float:  left;*/
-  height: auto;
-  width: 1em;
-
 }
