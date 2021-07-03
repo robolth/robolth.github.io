@@ -19,20 +19,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
   display:  flex;
-  flex-direction: row;
-  justify-content: center;
+
+  align-items: center;
 }
 
 .container {
   /*position:  relative;*/
-  float:  left;
-  overflow: hidden;
+  /*float:  left;*/
+  /*overflow: hidden;*/
 /*  width:  50%;*/
 }
 
 
 .logo {
-  float:  left;
+  /*float:  left;*/
   height: auto;
   width: 1em;
 
