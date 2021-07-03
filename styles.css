@@ -118,9 +118,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .page {
     margin: 60;
+    padding: 60;
   }
   .section {
     margin: 45;
+    padding: 60;
   }
   .menu {
     font-size: 1em;
