@@ -19,8 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
   display:  inline-block;
-  background-color: #EEEEEE;
-
 }
 
 .container {
@@ -34,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   float:  left;
   height: auto;
-  width: 1em;
+  width: .9em;
 
   display: block;
   margin-left: auto;
