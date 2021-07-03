@@ -18,9 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  /*position:  relative;*/
-  /*display:  inline-block;*/
-  height:  1em;
+  position:  relative;
+  display:  inline-block;
   background-color: #EEEEEE;
 
 }
