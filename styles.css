@@ -45,7 +45,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 2em;
+  margin-left: 1.5em;
 }
 
 
@@ -69,8 +69,11 @@ body {
     background-color: #F5CF8E; /* Yellow */
     font-size: 1.3em;
   }
-  .page .section {
-    padding: 2em;
+  .page {
+    padding: 20;
+  }
+  .section {
+    padding: 10;
   }
 }
 
@@ -80,8 +83,11 @@ body {
     background-color: #B2D6FF; /* Blue */
     font-size: 1.5em;
   }
-  .page .section {
-    padding: 3em;
+  .page {
+    padding: 30;
+  }
+  .section {
+    padding: 15;
   }
 }
 
@@ -110,11 +116,4 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   width: 1em;
   margin-right: .5em;
-}
-
-.container {
-  /*position:  relative;*/
-  /*float:  left;*/
-  /*overflow: hidden;*/
-/*  width:  50%;*/
 }
