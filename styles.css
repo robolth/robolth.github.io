@@ -30,9 +30,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .logo {
-  float:  left;
+  /*float:  left;*/
   height: auto;
-  width: .9em;
+  width: 1em;
 
   display: block;
   margin-left: auto;
