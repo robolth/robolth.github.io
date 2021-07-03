@@ -98,10 +98,13 @@ body {
     font-size: 1.5em;
   }
   .page {
-    padding: 60;
+    padding: 600;
   }
   .section {
     padding: 45;
+  }
+  .menu {
+    font-size: .5em;
   }
   .thumbnail {
     width: 25%;
