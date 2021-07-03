@@ -79,10 +79,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .page {
-    padding: 10;
+    padding: 10 !important;
   }
   .section {
-    padding: 5;
+    padding: 5 !important;
   }
 
   .thumbnail {
@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
   }
   .page {
-    padding: 20;
+    padding: 20 !important;
   }
   .section {
-    padding: 10;
+    padding: 10 !important;
   }
   .thumbnail {
     width: 25%;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row wrap;
   }
   .section {
-    padding: 20;
+    padding: 20 !important;
   }
   .menu {
     font-size: 1em;
