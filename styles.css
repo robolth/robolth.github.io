@@ -13,11 +13,6 @@
   align-items: center;
 }
 
-.menu {
-  background-color: #5995DA;
-  height: 80px;
-}
-
 .header {
   background-color: #B2D6FF;
   flex-direction: column;
@@ -26,6 +21,7 @@
 .content {
   background-color: #EAEDF0;
   height: 600px;
+  flex-direction: column;
 }
 
 
