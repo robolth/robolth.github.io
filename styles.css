@@ -26,12 +26,12 @@ h1, h2, h3, h4, h5, h6 {
 .page {
   display: flex;
   flex-wrap: wrap;
-  padding: 5;
+  padding: 5px;
 }
 
 .section {
-  width: 100%;
-  padding: 10;
+  width: 100px;
+  padding: 10px;
   /*height: 300px;*/
 }
 
@@ -82,17 +82,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
   }
 
-  /*
   .page {
-    padding: 10;
+    padding: 10px;
   }
-  */
 
-  /*
-  .section, .header, .menu {
-    padding: 5;
+  .section {
+    padding: 5px;
   }
-  */
 
   .thumbnail {
     width: 50%;
@@ -107,10 +103,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
   }
   .page {
-    padding: 20;
+    padding: 20px;
   }
-  .section, .header, .menu {
-    padding: 10;
+  .section {
+    padding: 10px;
   }
   .thumbnail {
     width: 25%;
@@ -131,14 +127,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .page {
-    padding: 20;
+    padding: 20px;
     width: 960px;
     margin: 0 auto;
     display: flex;
     flex-direction: row wrap;
   }
-  .section, .header, .menu {
-    padding: 20;
+  .section {
+    padding: 20px;
   }
   .menu {
     font-size: 1em;
