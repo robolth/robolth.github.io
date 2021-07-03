@@ -15,7 +15,7 @@
 .section {
   width: 100%;
   /*height: 300px;*/
-
+  padding:  5px;
 }
 
 .header {
@@ -67,10 +67,10 @@ body {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: #F5CF8E; /* Yellow */
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
-  .page {
-    padding: 20px;
+  .page .section {
+    padding: 2em;
   }
 }
 
@@ -78,11 +78,10 @@ body {
 @media only screen and (min-width: 961px) {
   body {
     background-color: #B2D6FF; /* Blue */
-    font-size: 18px;
-    font-size: 2em;
+    font-size: 1.5em;
   }
-  .page {
-    padding: 40px;
+  .page .section {
+    padding: 3em;
   }
 }
 
@@ -90,11 +89,11 @@ body {
 
 
 h1 {
-  font-size: 2.6em;
+  font-size: 1.8em;
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
