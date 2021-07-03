@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.image {
+.logo {
   float:  left;
-  height: 1em;
-  width: auto;
+  height: auto;
+  width: 1em;
 }
