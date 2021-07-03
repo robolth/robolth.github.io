@@ -22,13 +22,15 @@
 
 .header {
   background-color: #B2D6FF;
+  display: flex;
+  justify-content: safe left;
 }
 
 .menu {
   background-color: #5995DA;
   /*height: 80px;*/
-  
-  text-align: left;
+  display: flex;
+  justify-content: safe left;
 }
 
 .content {
