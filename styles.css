@@ -80,10 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.thumbnail:hover{
-  width: 95%;
-}
-
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -141,6 +137,26 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     width: 25%;
   }
+
+  thumbnail:hover+span {
+   bottom: -36px;
+   opacity: 1;
+  }
+
+  .hover08 thumbnail img {
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+  }
+  .hover08 thumbnail:hover img {
+   -webkit-filter: grayscale(0);
+   filter: grayscale(0);
+  }
+
+
+
+
 }
 
 
