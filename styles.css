@@ -37,6 +37,8 @@
 
 .content {
   background-color: #EAEDF0;
+  display: flex;
+  flex-wrap: wrap;
   /*height: 600px;*/
 }
 
