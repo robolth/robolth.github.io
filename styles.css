@@ -81,10 +81,10 @@ body {
     font-size: 1.3em;
   }
   .page {
-    padding: 20;
+    padding: 30;
   }
   .section {
-    padding: 10;
+    padding: 20;
   }
   .thumbnail {
     width: 25%;
@@ -98,10 +98,10 @@ body {
     font-size: 1.5em;
   }
   .page {
-    padding: 30;
+    padding: 45;
   }
   .section {
-    padding: 15;
+    padding: 30;
   }
   .thumbnail {
     width: 25%;
