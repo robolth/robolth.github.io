@@ -138,23 +138,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 25%;
   }
 
-  thumbnail:hover+span {
-   bottom: -36px;
-   opacity: 1;
+  .thumbnail:hover {
+    box-shadow: 0 0 5px #ffee10;
   }
-
-  .thumbnail img {
-   -webkit-filter: grayscale(100%);
-   filter: grayscale(100%);
-   -webkit-transition: .3s ease-in-out;
-   transition: .3s ease-in-out;
-  }
-  .thumbnail:over img {
-   -webkit-filter: grayscale(0);
-   filter: grayscale(0);
-  }
-
-
 
 
 }
