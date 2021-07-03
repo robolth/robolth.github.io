@@ -132,8 +132,10 @@ footer {
   }
 
   .page {
+    /*
     width: 960px;
     margin: 0 auto;
+    */
     display: flex;
     flex-direction: row;
 
