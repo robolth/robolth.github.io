@@ -24,7 +24,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 5;
 }
 
 .menu {
@@ -34,7 +33,6 @@
   justify-content: center;
   align-items: flex-start;
   /*height: 80px;*/
-  padding: 5;
 }
 
 .content {
@@ -42,7 +40,6 @@
   display: flex;
   flex-wrap: wrap;
   /*height: 600px;*/
-  padding: 5;
 }
 
 .stack {
@@ -116,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #B2D6FF; /* Blue */
+    background-color: #EEEEEE; /* Blue */
     font-size: 1.3em;
   }
   h1 {
