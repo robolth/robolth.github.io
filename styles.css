@@ -30,6 +30,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+  height: 100%;
 }
 
 .section {
