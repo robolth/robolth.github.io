@@ -257,9 +257,11 @@ body,
     display:  none;
   }
 
-  .mobile_specific {
+
+  .tablet_specific {
       display: none;
   }
+
 
   .logo-block {
     flex-direction: column;
