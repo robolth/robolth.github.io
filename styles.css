@@ -17,8 +17,7 @@ h1 {
 .top_bar {
   font-size: 1.8em;
   text-align: left;
-  display: flex;
-  justify-content: flex-start;
+  background-color: #EEEEEE;
 }
 
 h2 {
@@ -63,7 +62,7 @@ body,
 }
 
 .header {
-  /*background-color: #B2D6FF;*/
+  background-color: #B2D6FF;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -118,6 +117,7 @@ body,
 .social_bar {
   display: flex;
   padding: 0 0 10em 0;
+  background-color: #EAEDF0;;
 }
 
 .logo-block {
