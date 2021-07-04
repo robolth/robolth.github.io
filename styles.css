@@ -44,6 +44,7 @@ body,
   /*display: flex;
   align-items: center;
   */
+  overflow: hidden;
 }
 
 .header {
@@ -88,6 +89,7 @@ body,
   justify-content: center;
   align-items: center;
   /*background-color: #5995DA;*/
+  overflow: hidden;
 }
 
 .thumbnail{
