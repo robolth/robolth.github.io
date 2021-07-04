@@ -108,6 +108,13 @@ body,
   padding: 20px 0px;
 }
 
+.mobile_specific {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: right;
+}
+
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
