@@ -17,7 +17,7 @@ h1 {
 .top_bar {
   padding: 0;
   font-size: 1.8em;
-  /*background-color: #EEEEEE;*/
+  background-color: #EEEEEE;
 }
 
 h2 {
@@ -34,7 +34,7 @@ footer {
 
 details summary:focus{
     outline: none;
-    /*background-color: none;*/
+    background-color: #F5CF8E;
 }
 
 
@@ -303,7 +303,7 @@ body,
   }
 
   .mobile_specific {
-/*      display: none;*/
+      display: none;
   }
 
 
