@@ -44,7 +44,7 @@ footer {
   /*background-color: #B2D6FF;*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: flex-start;
 }
 
@@ -149,6 +149,11 @@ footer {
     flex-wrap: nowrap;
 
   }
+
+  .header {
+    width: 20%;
+  }
+
   .section {
     padding: 25px;
     /*overflow: auto;*/
@@ -179,6 +184,12 @@ footer {
   margin-right: .5em;
 }
 
+
+
+
+
+
+
 div.h1.banner {
   font-size: xx-small;
   width: max-content;
@@ -188,7 +199,6 @@ div.h1.banner {
   place-self: end;
   right: 20%;
 }
-
 
 
 details.click[open] span.click {
