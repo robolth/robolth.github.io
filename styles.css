@@ -115,7 +115,9 @@ body,
 
 .social_bar {
   display: flex;
-  padding: 0px 0px 10px .5em;;
+  padding: 0 0 1em 0;
+  font-size: 1.8em;
+
 }
 
 .logo-block {
