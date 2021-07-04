@@ -17,6 +17,8 @@ h1 {
 .top_bar {
   font-size: 1.8em;
   text-align: left;
+  display: flex;
+  justify-content: flex-start;
 }
 
 h2 {
@@ -121,7 +123,6 @@ body,
 .logo-block {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .logo {
