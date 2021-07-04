@@ -137,7 +137,9 @@ body,
   .container:hover {
   }
 
-
+  .desktop_specific {
+    display:  none;
+  }
 
 }
 
@@ -156,6 +158,10 @@ body,
   }
 
   .container:hover {
+  }
+
+  .desktop_specific {
+    display:  none;
   }
 
 }
