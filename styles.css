@@ -108,9 +108,12 @@ body,
     margin: 0;
     padding: 19px 16px;
     display: inline-block;
+
+    /*
     position: absolute;
     top: 0;
     left: 0;
+    */
 }
 .hamburger-icon span {
     width: 40px;
