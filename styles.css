@@ -26,6 +26,10 @@ footer {
   font-size:  0.6em;
 }
 
+summary:focus{
+    outline: none;
+}
+
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +98,25 @@ body,
 
 .thumbnail{
   width: 100%;
+}
+
+.hamburger-icon {
+    margin: 0;
+    padding: 19px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hamburger-icon span {
+    width: 40px;
+    background-color: #000;
+    height: 5px;
+    display: block;
+    margin-bottom: 6px;
+}
+.hamburger-icon span:last-child {
+    margin-bottom:0px;
 }
 
 /* Mobile Styles */
@@ -165,6 +188,10 @@ body,
   }
   h2 {
     font-size: 1.5em;
+  }
+
+  details {
+
   }
 
   .page {
