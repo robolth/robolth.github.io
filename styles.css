@@ -121,14 +121,6 @@ body,
   overflow: hidden;
 }
 
-.year{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*background-color: #5995DA;*/
-  overflow: hidden;
-}
-
 .thumbnail{
   width: 100%;
 }
@@ -177,9 +169,6 @@ body,
   .container {
     padding: 10px;
     width: 50%;
-  }
-
-  .container:hover {
   }
 
   .desktop_specific {
@@ -241,9 +230,6 @@ body,
   .container {
     padding: 15px;
     width: 33%;
-  }
-
-  .container:hover {
   }
 
   .logo-block {
@@ -324,7 +310,7 @@ body,
     width: 25%;
   }
 
-  .container:hover {
+  .hoverable:hover {
       box-shadow: 0 0 5px #414141;
   }
 
