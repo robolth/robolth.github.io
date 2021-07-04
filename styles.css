@@ -39,10 +39,6 @@ details summary::-webkit-details-marker {
   display:none;
 }
 
-.mobile_specific {
-  background-color: #F09A9D;
-}
-
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +115,7 @@ body,
 
 .social_bar {
   display: flex;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 10px .5em;;
 }
 
 .logo-block {
