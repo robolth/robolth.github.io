@@ -52,6 +52,7 @@ body,
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
+  overflow: hidden;
 }
 
 .menu {
@@ -60,6 +61,7 @@ body,
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  overflow: hidden;
   /*height: 80px;*/
 }
 
@@ -76,6 +78,7 @@ body,
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  overflow: hidden;
   /*margin-left: 1.5em;*/
 }
 
@@ -110,14 +113,7 @@ body,
   .container:hover {
   }
 
-  .page {
-    /*
-    width: 960px;
-    margin: 0 auto;
-    */
-    flex-wrap: nowrap;
 
-  }
 
 }
 
