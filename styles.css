@@ -16,6 +16,7 @@ h1 {
 
 .top_bar {
   font-size: 1.8em;
+  text-align: left;
 }
 
 h2 {
@@ -116,7 +117,6 @@ body,
   display: flex;
   padding: 0px 0px 10px 0px;
 }
-
 
 .logo-block {
   display:  flex;
