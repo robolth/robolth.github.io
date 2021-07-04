@@ -30,6 +30,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+}
+
+html,
+body,
+.page {
   height: 100%;
 }
 
@@ -39,7 +44,6 @@ footer {
   /*display: flex;
   align-items: center;
   */
-  overflow: hidden;
 }
 
 .header {
@@ -64,7 +68,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   /*height: 600px;*/
-  overflow: auto;
+  overflow: scroll;
 }
 
 .stack {
