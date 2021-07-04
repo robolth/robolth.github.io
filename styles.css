@@ -111,6 +111,10 @@ body,
     padding: 5px 15px;
   }
 
+  .content {
+    flex-flow: column wrap;
+  }
+
   .container {
     padding: 10px;
     width: 50%;
