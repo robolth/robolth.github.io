@@ -112,15 +112,10 @@ body,
   padding: 20px 0px;
 }
 
-.mobile_specific {
-  padding: 0px 0px 10px 0px;
-}
-
 .social_bar {
   display: flex;
-
+  padding: 0px 0px 10px 0px;
 }
-
 
 
 /* Mobile Styles */
