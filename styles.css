@@ -226,14 +226,10 @@ body,
   }
   .container {
     padding: 15px;
-    width: 50%;
+    width: 33%;
   }
 
   .container:hover {
-  }
-
-  .desktop_specific {
-    display:  none;
   }
 
   .logo-block {
@@ -255,6 +251,16 @@ body,
   .stack {
     justify-content: space-between;
     height: 4em;
+  }
+
+  /*
+  .desktop_specific {
+    display:  none;
+  }
+  */
+
+  .mobile_specific {
+      display: none;
   }
 
 }
