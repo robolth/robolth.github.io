@@ -222,6 +222,7 @@ details.click[open] span.click:after {
 details.click[open] span.click:before {
   border: none;
   background-color: var(--bg-color);
+  background-image: url("images/3.jpg");
   width: var(--cover-width);
   height: var(--cover-height);
   background-size: var(--cover-bg-size);
