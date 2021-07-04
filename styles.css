@@ -103,16 +103,17 @@ body,
     font-size: 1em;
   }
 
+
+  .page {
+    flex-flow: column wrap;
+  }
+
   .header {
     min-height: min-content;
   }
 
   .section {
     padding: 5px 15px;
-  }
-
-  .content {
-    flex-flow: column wrap;
   }
 
   .container {
