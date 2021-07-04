@@ -141,7 +141,7 @@ body,
   .header {
     min-height: min-content;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .section {
