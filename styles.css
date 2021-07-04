@@ -36,7 +36,7 @@ summary:focus{
     outline: none;
 }
 
-/*
+
 details > summary {
     list-style-type: none;
 }
@@ -44,7 +44,7 @@ details > summary {
 details > summary::-webkit-details-marker {
     display: none;
 }
-*/
+
 details > summary::before {
     content: '&#9776;';
 }
