@@ -352,7 +352,9 @@ figure.zoom:target~* {
 
 figure#image3:target,
 figure#image5:target,
-figure#image10:target {
+figure#image10:target,
+figure#image12:target,
+ {
   display: flex;
   flex-direction: column;
   top: 0;
