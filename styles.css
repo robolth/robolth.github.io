@@ -190,6 +190,15 @@ body,
     padding-left: .2em;
   }
 
+  .logo {
+    height: auto;
+    width: 1.8em;
+    margin-right: 1em;
+  }
+
+  .stack {
+    padding-bottom: 1em;
+  }
 
 }
 
