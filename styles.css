@@ -17,7 +17,7 @@ h1 {
 .top_bar {
   padding: 0;
   font-size: 1.8em;
-  background-color: #EEEEEE;
+  /*background-color: #EEEEEE;*/
 }
 
 h2 {
@@ -32,9 +32,8 @@ footer {
   font-size:  0.6em;
 }
 
-summary:focus{
+details summary:focus{
     outline: none;
-    display: none;
 }
 
 
@@ -76,7 +75,7 @@ body,
 }
 
 .header {
-  background-color: #B2D6FF;
+  /*background-color: #B2D6FF;*/
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -126,11 +125,6 @@ body,
 
 .desktop_specific {
   padding: 20px 0px;
-}
-
-.social_bar {
-  display: flex;
-  padding: 0 0 10em 0;
 }
 
 .logo-block {
