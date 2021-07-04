@@ -104,7 +104,7 @@ body,
   }
 
   .header {
-    height: 25%;
+    min-height: min-content;
   }
 
   .section {
