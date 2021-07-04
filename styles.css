@@ -105,7 +105,14 @@ body,
 
 
   .page {
-/*    flex-flow: column wrap;*/
+    /*
+    width: 960px;
+    margin: 0 auto;
+    */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
   }
 
   .header {
@@ -167,7 +174,7 @@ body,
     */
     display: flex;
     flex-direction: row;
-/*    flex-wrap: nowrap;*/
+    flex-wrap: nowrap;
 
   }
 
