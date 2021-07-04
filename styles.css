@@ -37,7 +37,6 @@ footer {
   /*display: flex;
   align-items: center;
   */
-    /*overflow: auto;*/
 }
 
 .header {
@@ -62,6 +61,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   /*height: 600px;*/
+  overflow: auto;
 }
 
 .stack {
