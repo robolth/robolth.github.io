@@ -253,7 +253,7 @@ body,
 
   .stack {
     justify-content: space-between;
-    min-height: max-content;
+    /*height: 2;*/
   }
 
 }
