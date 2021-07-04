@@ -34,7 +34,7 @@ footer {
 
 details summary:focus{
     outline: none;
-    background-color: none;
+    /*background-color: none;*/
 }
 
 
@@ -46,6 +46,7 @@ details > summary::-webkit-details-marker {
     display: none;
 }
 
+/*
 details > summary::before {
     content: '☰';
 }
@@ -53,6 +54,7 @@ details > summary::before {
 details[open] > summary::before {
     content: '☰';
 }
+*/
 
 .page {
   display: flex;
@@ -86,7 +88,6 @@ body,
 
 .menu {
   /*background-color: #5995DA;*/
-  background-color: #F5CF8E;
   display: flex;
   flex-direction: column;
   justify-content: center;
