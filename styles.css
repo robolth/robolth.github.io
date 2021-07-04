@@ -132,7 +132,7 @@ body,
 .logo-block {
   display: flex;
   align-items: center;
-  background-color: #F09A9D;
+  /*background-color: #F09A9D;*/
 }
 
 .logo {
@@ -269,7 +269,6 @@ body,
 
   .logo-block {
     flex-direction: column;
-    background-color: #F09A9D;
     margin: 0;
     padding: 0;
   }
