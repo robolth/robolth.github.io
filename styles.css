@@ -355,7 +355,24 @@ figure#image3:target,
 figure#image5:target,
 figure#image10:target,
 figure#image12:target,
-figure#image6:target
+figure#image6:target,
+figure#image11:target,
+figure#image7:target,
+figure#image18:target,
+figure#image8:target,
+figure#image1:target,
+figure#image14:target,
+figure#image9:target,
+figure#image16:target,
+figure#image31:target,
+figure#image32:target,
+figure#image17:target,
+figure#image30:target,
+figure#image29:target,
+figure#image4:target,
+figure#image36:target,
+figure#deux_feuilles:target
+
  {
   display: flex;
   flex-direction: column;
