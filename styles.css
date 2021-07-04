@@ -98,6 +98,9 @@ footer {
     width: 50%;
   }
 
+  .container:hover {
+  }
+
 }
 
 /* Tablet Styles */
@@ -112,6 +115,10 @@ footer {
   .container {
     width: 25%;
   }
+
+  .container:hover {
+  }
+
 }
 
 /* Desktop Styles */
