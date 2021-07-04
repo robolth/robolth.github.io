@@ -34,6 +34,7 @@ footer {
 
 summary:focus{
     outline: none;
+    display: none;
 }
 
 
@@ -236,6 +237,27 @@ body,
 
   .desktop_specific {
     display:  none;
+  }
+
+  .logo-block {
+    padding-top: .5em;
+    padding-left: .2em;
+    padding-bottom: .5em;
+  }
+
+  .menu {
+    padding-left: .2em;
+  }
+
+  .logo {
+    height: auto;
+    width: 1.6em;
+    margin-right: 1em;
+  }
+
+  .stack {
+    justify-content: space-between;
+    height: 4em;
   }
 
 }
