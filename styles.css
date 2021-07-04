@@ -301,6 +301,7 @@ body,
 
   .header {
     width: 25%;
+    min-width: 30em;
   }
 
   .section {
