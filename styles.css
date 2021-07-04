@@ -100,7 +100,9 @@ body,
   width: 100%;
 }
 
-
+  .desktop_specific {
+    padding: 0px 20px;
+  }
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
