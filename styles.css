@@ -15,7 +15,9 @@ h1 {
 }
 
 .top_bar {
-  font-size: 2em;
+  padding: 0;
+  height: 1.8em;
+  font-size: 1.8em;
   background-color: #EEEEEE;
 }
 
@@ -218,11 +220,6 @@ body,
   h2 {
     font-size: 1.5em;
   }
-
-  details {
-
-  }
-
 
   .page {
     /*
