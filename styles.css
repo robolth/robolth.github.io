@@ -37,7 +37,7 @@ footer {
   /*display: flex;
   align-items: center;
   */
-  overflow: auto;
+    /*overflow: auto;*/
 }
 
 .header {
@@ -93,7 +93,7 @@ footer {
 
   .section {
     padding: 15px;
-    overflow: auto;
+    /*overflow: auto;*/
   }
 
   .container {
@@ -113,7 +113,7 @@ footer {
   }
   .section {
     padding: 20px;
-    overflow: auto;
+    /*overflow: auto;*/
   }
   .container {
     width: 25%;
@@ -149,7 +149,7 @@ footer {
   }
   .section {
     padding: 25px;
-    overflow: auto;
+    /*overflow: auto;*/
   }
   .menu {
     font-size: 1em;
