@@ -183,7 +183,9 @@ body,
   }
 
   .logo-block {
+    padding-top: .5em;
     padding-left: .2em;
+    padding-bottom: .5em;
   }
 
   .menu {
@@ -192,12 +194,13 @@ body,
 
   .logo {
     height: auto;
-    width: 1.8em;
+    width: 1.6em;
     margin-right: 1em;
   }
 
   .stack {
     padding-bottom: 1em;
+    justify-content: space-between;
   }
 
 }
