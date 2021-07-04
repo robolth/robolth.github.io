@@ -106,7 +106,7 @@ body,
 
 .hamburger-icon {
     margin: 0;
-    padding: 19px 16px;
+    padding: 3px 3px;
     display: inline-block;
 
     /*
@@ -116,11 +116,12 @@ body,
     */
 }
 .hamburger-icon span {
-    width: 40px;
+    width: 30px;
     background-color: #000;
-    height: 5px;
+    color: #414141;
+    height: 3px;
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
 }
 .hamburger-icon span:last-child {
     margin-bottom:0px;
