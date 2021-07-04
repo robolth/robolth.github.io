@@ -91,6 +91,7 @@ footer {
   }
 
   .section {
+    overflow: auto;
     padding: 5px;
   }
 
@@ -171,11 +172,6 @@ footer {
   width: 1em;
   margin-right: .5em;
 }
-
-
-
-
-
 
 div.h1.banner {
   font-size: xx-small;
