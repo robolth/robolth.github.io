@@ -103,6 +103,10 @@ body,
     font-size: 1em;
   }
 
+  .header {
+    height: 25%;
+  }
+
   .section {
     padding: 5px 15px;
   }
