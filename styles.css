@@ -222,7 +222,6 @@ body,
     min-height: min-content;
     flex-direction: row;
     justify-content: space-around;
-    height: 20%;
   }
 
   .section {
