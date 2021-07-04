@@ -215,9 +215,10 @@ body,
   }
 
   .header {
-    min-height: min-content;
+    /*min-height: min-content;*/
     flex-direction: row;
     justify-content: space-around;
+    min-height: max-content;
   }
 
   .section {
@@ -253,7 +254,7 @@ body,
 
   .stack {
     justify-content: space-between;
-    /*height: 2;*/
+
   }
 
 }
