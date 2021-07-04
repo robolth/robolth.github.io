@@ -81,7 +81,6 @@ body,
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
-  overflow: hidden;
 }
 
 .menu {
@@ -90,7 +89,6 @@ body,
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  overflow: hidden;
   /*height: 80px;*/
 }
 
@@ -107,7 +105,6 @@ body,
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  overflow: hidden;
 }
 
 
@@ -116,7 +113,6 @@ body,
   justify-content: center;
   align-items: center;
   /*background-color: #5995DA;*/
-  overflow: hidden;
 }
 
 .thumbnail{
@@ -168,10 +164,6 @@ body,
   }
 
   .desktop_specific {
-    display:  none;
-  }
-
-  .tablet_specific {
     display:  none;
   }
 
@@ -251,10 +243,6 @@ body,
     display:  none;
   }
 
-  .tablet_specific {
-      display: none;
-  }
-
 }
 
 /* Desktop Styles */
@@ -286,16 +274,14 @@ body,
     width: 25%;
   }
 
+  /*
   .hoverable:hover {
       box-shadow: 0 0 5px #414141;
   }
+  */
 
   .mobile_specific {
       display: none;
-  }
-
-  .tablet_specific {
-    display:  none;
   }
 
 }
