@@ -46,7 +46,7 @@ details > summary::-webkit-details-marker {
 }
 
 details > summary::before {
-    content: '&#9776;';
+    content: '☰';
 }
 
 details[open] > summary::before {
