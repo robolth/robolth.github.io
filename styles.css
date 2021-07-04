@@ -59,7 +59,7 @@ details[open] > summary::before {
 .page {
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 html,
@@ -260,14 +260,6 @@ body,
   .tablet_specific {
       display: none;
   }
-
-  /*
-  .logo-block {
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-  }
-  */
 
 }
 
