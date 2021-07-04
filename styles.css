@@ -98,11 +98,6 @@ body,
     font-size: 1em;
   }
 
-  .section {
-    padding: 15px;
-    /*overflow: auto;*/
-  }
-
   .container {
     padding: 10px;
     width: 50%;
@@ -119,10 +114,7 @@ body,
     /*background-color: #F5CF8E;*/ /* Yellow */
     font-size: 1.2em;
   }
-  .section {
-    padding: 20px;
-    /*overflow: auto;*/
-  }
+
   .container {
     padding: 15px;
     width: 25%;
@@ -161,10 +153,6 @@ body,
     width: 25%;
   }
 
-  .section {
-    padding: 25px;
-    /*overflow: auto;*/
-  }
   .menu {
     font-size: 1em;
   }
