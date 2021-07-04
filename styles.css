@@ -39,6 +39,10 @@ details summary::-webkit-details-marker {
   display:none;
 }
 
+.mobile_specific {
+  background-color: #F09A9D;
+}
+
 .page {
   display: flex;
   flex-wrap: wrap;
