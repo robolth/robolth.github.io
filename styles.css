@@ -180,30 +180,7 @@ footer {
 
 
 
-span.banner {
-  --hover-delay: .15s;
-  --transition-fn: cubic-bezier(.19,1,.22,1);
-  --cover-width: min(323px,16vw);
-  --cover-height: 209px;
-  --cover-bg-size: 378px;
-  --column-gap: min(1vw, 0.8rem);
-  font-variation-settings: "opsz"8, "GRAD"0.55;
-  /* fallback */
-  font-size: 3rem;
-  font-weight: bolder;
-  /* scale with viewport width size */
-  font-size: min(5vw, 3rem);
-  font-size: clamp(5vw, 3rem, 10vw);
-  /* Color fallback, otherwise use background-clip in the @supports block below */
-  color: #7c1a1a;
-  margin: 0;
-  border-bottom: 0;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-column-gap: var(--column-gap);
-  grid-area: header-stack;
-}
+
 
 
 
@@ -227,7 +204,7 @@ details.click[open] span.click:after {
   margin: 0;
   height: min-content;
   width: var(--cover-width);
-  background: #e6b725;
+  background: #EEEEEE;
   z-index: 998;
   color: var(--fg-color);
   padding: .7rem .6rem .5rem .7rem;
