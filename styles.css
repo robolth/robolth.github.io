@@ -15,7 +15,7 @@ h1 {
 }
 
 .top_bar {
-  font-size: 1.8em;
+  font-size: 2em;
   background-color: #EEEEEE;
 }
 
@@ -71,6 +71,7 @@ body,
 
 .menu {
   /*background-color: #5995DA;*/
+  background-color: #F5CF8E;
   display: flex;
   flex-direction: column;
   justify-content: center;
