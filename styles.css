@@ -58,7 +58,7 @@ details[open] > summary::before {
 
 .page {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 html,
@@ -73,7 +73,6 @@ body,
   /*display: flex;
   align-items: center;
   */
-  /*overflow: hidden;*/
 }
 
 .header {
@@ -150,9 +149,7 @@ body,
   */
 
   .page {
-    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
   }
 
   .header {
@@ -212,9 +209,7 @@ body,
   }
 
   .page {
-    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
   }
 
   .header {
@@ -275,17 +270,6 @@ body,
     font-size: 1.5em;
   }
 
-  .page {
-    /*
-    width: 960px;
-    margin: 0 auto;
-    */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-  }
-
   .header {
     width: 25%;
     min-width: 15em;
@@ -293,7 +277,6 @@ body,
 
   .section {
     padding: 25px;
-    /*overflow: auto;*/
   }
   .menu {
     font-size: 1em;
