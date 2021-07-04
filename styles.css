@@ -211,6 +211,9 @@ body,
     /*background-color: #F5CF8E;*/ /* Yellow */
     font-size: 1.5em;
   }
+  h1 {
+    font-size: 3em;
+  }
 
   .page {
     display: flex;
