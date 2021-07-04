@@ -197,6 +197,7 @@ body,
   .stack {
     justify-content: space-between;
     height: 4em;
+    min-height: max-content;
   }
 
 }
@@ -254,6 +255,7 @@ body,
   .stack {
     justify-content: space-between;
     height: 4em;
+    min-height: max-content;
   }
 
 }
