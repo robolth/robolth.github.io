@@ -311,7 +311,7 @@ body,
   }
 
   .hoverable:hover {
-/*      box-shadow: 0 0 5px #414141;*/
+      box-shadow: 0 0 5px #414141;
   }
 
   .mobile_specific {
