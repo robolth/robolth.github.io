@@ -30,6 +30,10 @@ summary:focus{
     outline: none;
 }
 
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -102,29 +106,6 @@ body,
 
 .desktop_specific {
   padding: 20px 0px;
-}
-
-.hamburger-icon {
-    margin: 0;
-    padding: 3px 3px;
-    display: inline-block;
-
-    /*
-    position: absolute;
-    top: 0;
-    left: 0;
-    */
-}
-.hamburger-icon span {
-    width: 30px;
-    background-color: #000;
-    color: #414141;
-    height: 3px;
-    display: block;
-    margin-bottom: 3px;
-}
-.hamburger-icon span:last-child {
-    margin-bottom:0px;
 }
 
 
