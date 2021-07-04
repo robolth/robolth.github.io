@@ -108,7 +108,6 @@ body,
   justify-content: center;
   align-items: flex-start;
   overflow: hidden;
-  /*margin-left: 1.5em;*/
 }
 
 
@@ -199,8 +198,8 @@ body,
   }
 
   .stack {
-    padding-bottom: 1em;
     justify-content: space-between;
+    height: 4em;
   }
 
 }
