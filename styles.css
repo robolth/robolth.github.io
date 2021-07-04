@@ -79,10 +79,6 @@ footer {
   /*background-color: #5995DA;*/
 }
 
-.container:hover {
-    box-shadow: 0 0 5px #414141;
-}
-
 .thumbnail{
   width: 100%;
 }
@@ -149,6 +145,10 @@ footer {
   }
   .container {
     width: 25%;
+  }
+
+  .container:hover {
+      box-shadow: 0 0 5px #414141;
   }
 
 }
