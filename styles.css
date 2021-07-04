@@ -121,6 +121,14 @@ body,
   overflow: hidden;
 }
 
+.year{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #5995DA;*/
+  overflow: hidden;
+}
+
 .thumbnail{
   width: 100%;
 }
