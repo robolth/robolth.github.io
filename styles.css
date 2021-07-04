@@ -178,6 +178,10 @@ body,
     display:  none;
   }
 
+  .tablet_specific {
+    display:  none;
+  }
+
   .logo-block {
     padding-top: .5em;
     padding-left: .2em;
@@ -253,11 +257,9 @@ body,
     height: 4em;
   }
 
-  /*
   .desktop_specific {
     display:  none;
   }
-  */
 
   .mobile_specific {
       display: none;
@@ -313,6 +315,9 @@ body,
       display: none;
   }
 
+  .tablet_specific {
+    display:  none;
+  }
 
 }
 
