@@ -34,11 +34,8 @@ footer {
 
 figcaption {
   /*text-decoration: underline;*/
-  display: flex;
   font-size: .75em;
-  margin-top: 50px;
-  outline: #EEEEEE;
-  background-color: #F5CF8E;
+  /*background-color: #F5CF8E;*/
 }
 
 details summary:focus{
