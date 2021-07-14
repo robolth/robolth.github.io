@@ -35,7 +35,6 @@ footer {
 figcaption {
   /*text-decoration: underline;*/
   font-size: .75em;
-  padding-top: 3em;
 }
 
 details summary:focus{
