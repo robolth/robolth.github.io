@@ -339,9 +339,23 @@ figure#drawing2021_9:target,
 figure#drawing2021_10:target,
 figure#drawing2021_11:target,
 figure#drawing2021_12:target,
-figure#drawing2019_01:target
+figure#drawing2019_01:target,
+figure#drawing2019_02:target,
+figure#drawing2019_03:target,
+figure#drawing2019_04:target,
+figure#drawing2019_05:target,
+figure#drawing2019_06:target,
+figure#drawing2019_07:target,
+figure#drawing2019_08:target,
+figure#drawing2019_09:target,
+figure#drawing2019_10:target,
+figure#drawing2019_11:target,
+figure#drawing2019_12:target,
+figure#drawing2019_13:target,
+figure#drawing2019_14:target,
+figure#drawing2019_15:target
 
- {
+{
   display: flex;
   flex-direction: column;
   top: 0;
