@@ -390,7 +390,7 @@ figure.zoom figcaption {
   width: 100%;
   text-align: center;
   padding: 5px 5px;
-  position: sticky;
+  /*position: sticky;*/
   width: max-content;
   margin: 0 auto;
 }
