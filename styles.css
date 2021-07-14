@@ -36,6 +36,8 @@ figcaption {
   /*text-decoration: underline;*/
   font-size: .75em;
   padding-top: 50px;
+  outline: #EEEEEE;
+  background-color: #F5CF8E;
 }
 
 details summary:focus{
