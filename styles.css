@@ -32,11 +32,6 @@ footer {
   font-size:  0.6em;
 }
 
-figcaption {
-  /*text-decoration: underline;*/
-  font-size: .75em;
-}
-
 details summary:focus{
     outline: none;
     /*background-color: #F5CF8E;*/
@@ -291,7 +286,10 @@ body,
 }
 
 
-
+figcaption {
+  /*text-decoration: underline;*/
+  font-size: .75em;
+}
 
 
 
