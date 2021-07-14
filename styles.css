@@ -288,7 +288,7 @@ body,
 
 
 
-figcaption a {
+figcaption {
   text-decoration: underline;
   font-size: .5em;
 }
