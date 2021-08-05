@@ -48,3 +48,5 @@ figure#DRAWING:target
   min-height: max-content;
 }
 ```
+
+4) Test the website in incognito mode to avoid cache.
