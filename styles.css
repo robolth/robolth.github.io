@@ -315,11 +315,10 @@ figure.zoom, figure.zoom img, a.zoom {
   display: none;
 }
 
-/*
+
 figure.zoom {
   background-color: #EEEEEE;
 }
-*/
 
 a.zoom {
   background-color: #F5CF8E;
