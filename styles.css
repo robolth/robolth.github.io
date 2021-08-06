@@ -159,8 +159,8 @@ body,
   object-fit: contain;
   object-position: top;
  */
-  height: max-content;
-  width: max-content;
+  height: 1000px;
+  width: 100%;
   align-self: center;
   
   /*
