@@ -301,15 +301,13 @@ body,
 }
 
 
-
-
 body>figure.zoom {
   grid-column: 1 / span 12;
   grid-row: 1 / span 2;
   contain: layout paint;
 }
 
-figure.zoom, figure.zoom img, a.zoom {
+figure.zoom, figure.zoom img, figure.zoom iframe, a.zoom {
   display: none;
 }
 
