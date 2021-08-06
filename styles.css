@@ -140,9 +140,7 @@ body,
 .embedder {
   background-color: #EEEEEE;
   position:relative;
-  overflow: hidden;
-  width:95%;
-
+  padding:122.78% 0 0 0;  
 }
 
 .embed {
