@@ -140,11 +140,11 @@ body,
 .embed {
   position:relative;
 /*
-  width:max-content;
-  height:max-content;
-*/
   width:95%;
   height:95%;
+*/
+  width:200%;
+  height:200%;
 }
 
 /* Mobile Styles */
@@ -409,10 +409,8 @@ figure.zoom:target a.zoom {
 }
 
 figure.zoom:target img {
-/*
   min-height: max-content;
   max-width: min-content;
-  */
   display: inline-flex;
   object-fit: contain;
   object-position: top;
@@ -425,6 +423,8 @@ figure.zoom:target img {
 }
 
 figure.zoom:target iframe {
+  min-height: max-content;
+  max-width: min-content;
   display: inline-flex;
   object-fit: contain;
   object-position: top;
