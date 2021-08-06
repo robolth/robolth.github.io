@@ -146,6 +146,10 @@ body,
   }
   */
 
+  .embed {
+    width: 640;
+  }
+  
   .page {
     flex-direction: column;
   }
@@ -288,6 +292,10 @@ body,
   }
   */
 
+  .embed {
+    width: 1600;
+  }
+  
   .mobile_specific {
       display: none;
   }
