@@ -139,8 +139,11 @@ body,
 
 .embed {
   position:relative;
-  width:95%;
-  height:95%;
+  width:max-content;
+  height:max-content;
+
+  /*  width:95%;
+  height:95%;*/
 }
 
 /* Mobile Styles */
