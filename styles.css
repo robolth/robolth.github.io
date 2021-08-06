@@ -146,6 +146,7 @@ body,
 
 .embed {
   background-color: #F5CF8E;
+  display:block;
   width:100%;
   height:100%;
 
