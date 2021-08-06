@@ -137,6 +137,12 @@ body,
   margin-right: .5em;
 }
 
+.embed {
+  position:relative;
+  width:95%;
+  height:95%;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 
@@ -145,10 +151,6 @@ body,
     font-size: 1em;
   }
   */
-
-  .embed {
-    width: 640;
-  }
   
   .page {
     flex-direction: column;
