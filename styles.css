@@ -314,12 +314,14 @@ figure.zoom, figure.zoom img, figure.zoom iframe, a.zoom {
   display: none;
 }
 
+/*
 figure.zoom {
-  background-color: #F5CF8E;
+  background-color: #EEEEEE;
 }
+*/
 
 a.zoom {
-  background-color: #EEEEEE;
+  background-color: #F5CF8E;
 }
 
 
