@@ -399,9 +399,9 @@ figure.zoom:target img {
 
 
 figure.zoom:target iframe {
-  display: initial;
-  height: max-content;
-  width: 95vw;
+/*  display: initial;*/
+  width: max-content;
+
   
   /*
   min-height: max-content;
