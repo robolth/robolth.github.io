@@ -397,6 +397,7 @@ figure.zoom:target img {
   align-self: center;
 }
 
+/*
 figure.zoom:target iframe {
   min-height: max-content;
   max-width: min-content;
@@ -407,6 +408,7 @@ figure.zoom:target iframe {
   width: 95vw;
   align-self: center;
 }
+*/
 
 figure.zoom figcaption {
   display: initial;
