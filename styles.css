@@ -318,14 +318,15 @@ figure.zoom, figure.zoom img, a.zoom {
 
 figure.zoom {
   background-color: #EEEEEE;
+  /*
   min-height: max-content;
   min-width: min-content;
   display: inline-flex;
-  /*
   object-fit: contain;
   object-position: top;
-  height: max-content;
   */
+  height: max-content;
+  width: max-content;
 }
 
 a.zoom {
