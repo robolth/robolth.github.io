@@ -409,8 +409,10 @@ figure.zoom:target a.zoom {
 }
 
 figure.zoom:target img {
+/*
   min-height: max-content;
   max-width: min-content;
+  */
   display: inline-flex;
   object-fit: contain;
   object-position: top;
@@ -423,15 +425,12 @@ figure.zoom:target img {
 }
 
 figure.zoom:target iframe {
-  width: max-content;  
-  min-height: max-content;
-  max-width: min-content;
   display: inline-flex;
   object-fit: contain;
   object-position: top;
-  height: max-content;
-  width: max-content;
-  align-self: center;
+  height: auto;
+  width: auto;
+  /*align-self: center;*/
 }
 
 figure.zoom figcaption {
