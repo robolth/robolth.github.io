@@ -414,8 +414,9 @@ figure.zoom:target img {
   display: inline-flex;
   object-fit: contain;
   object-position: top;
-/*
   height: max-content;
+
+  /*
   width: 95vw;
   align-self: center;
 */
@@ -424,7 +425,7 @@ figure.zoom:target img {
 figure.zoom:target iframe {
   width: max-content;  
   min-height: max-content;
-  min-width: max-content;
+  max-width: min-content;
   display: inline-flex;
   object-fit: contain;
   object-position: top;
