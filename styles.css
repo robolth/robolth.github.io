@@ -140,34 +140,20 @@ body,
 .embedder {
   background-color: #EEEEEE;
   position:relative;
+  overflow: hidden;
   width:95%;
   height:95%;
 }
 
 .embed {
   background-color: #F5CF8E;
-
-  /*
-  display:block;
+  position: absolute;
   width:100%;
   height:100%;
-  position:relative;
-  
-  min-height: max-content;
-  max-width: min-content;
-  display: inline-flex;
-  object-fit: contain;
-  object-position: top;
- */
-  height: 1000px;
-  width: 100%;
-  align-self: center;
-  
-  /*
-  position:fixed;
   left:0;
   top:0;
- */
+  bottom:0;
+  right:0;
 }
 
 /* Mobile Styles */
