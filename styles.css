@@ -311,6 +311,16 @@ figure.zoom, figure.zoom img, figure.zoom iframe, a.zoom {
   display: none;
 }
 
+figure.zoom {
+  background-color: #F5CF8E;
+}
+
+a.zoom {
+  background-color: #EEEEEE;
+}
+
+
+
 figure.zoom:target~* {
   display: none;
 }
