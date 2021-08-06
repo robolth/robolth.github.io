@@ -399,12 +399,12 @@ figure.zoom:target img {
 figure.zoom:target iframe {
   width: max-content;  
   min-height: max-content;
-  max-width: min-content;
+/*  max-width: min-content;*/
   display: inline-flex;
   object-fit: contain;
   object-position: top;
   height: max-content;
-/*  width: 95vw;*/
+  width: 95vw;
   align-self: center;
 }
 
