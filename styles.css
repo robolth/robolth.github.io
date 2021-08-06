@@ -399,11 +399,12 @@ figure.zoom:target img {
 
 
 figure.zoom:target iframe {
-/*  display: initial;*/
+  display: inline-flex;
+/*
   width: max-content;
 
   
-  /*
+  
   min-height: max-content;
   max-width: min-content;
   display: inline-flex;
@@ -427,6 +428,6 @@ figure.zoom figcaption {
   text-align: center;
   padding: 5px 5px;
   /*position: sticky;*/
-  width: .9% * max-content;
+  width: max-content;
   margin: 0 auto;
 }
