@@ -41,16 +41,9 @@ figcaption {
   /*background-color: #F5CF8E;*/
 }
 
-/*
 .mobile_specific {
   background-color: #F5CF8E;
-  min-height:max-content;
-}
-*/
-
-details {
-    border-radius: 3px;
-    background: #F5CF8E;
+  height:10em;
 }
 
 details summary:focus{
