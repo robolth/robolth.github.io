@@ -324,7 +324,6 @@ body,
   
 }
 
-
 body>figure.zoom {
   grid-column: 1 / span 12;
   grid-row: 1 / span 2;
@@ -335,25 +334,15 @@ figure.zoom, figure.zoom img, a.zoom, div.zoom {
   display: none;
 }
 
-
+/*
 figure.zoom {
-  /*
   background-color: #EEEEEE;
-  min-height: max-content;
-  min-width: min-content;
-  display: inline-flex;
-  object-fit: contain;
-  object-position: top;
-  height: max-content;
-  width: max-content;
-  */
 }
 
 a.zoom {
   background-color: #F5CF8E;
 }
-
-
+*/
 
 figure.zoom:target~* {
   display: none;
@@ -435,11 +424,8 @@ figure.zoom:target img {
   object-fit: contain;
   object-position: top;
   height: max-content;
-
-  /*
   width: 95vw;
   align-self: center;
-*/
 }
 
 /*
