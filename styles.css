@@ -354,8 +354,8 @@ body>figure.zoom {
   contain: layout paint;
 }
 
-/*figure.zoom, figure.zoom img, a.zoom {*/
-figure.zoom, figure.zoom img {
+/*figure.zoom, figure.zoom img {*/
+figure.zoom, figure.zoom img, a.zoom {
   display: none;
 }
 
@@ -447,7 +447,8 @@ figure#yeux_intermediaires:target
   background-color: #F09A9D;
 }
 
-figure.zoom:target {
+/*figure.zoom:target {*/
+figure.zoom:target a.zoom {
   display: initial;
 }
 
