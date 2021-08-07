@@ -147,7 +147,7 @@ body,
 }
 
 .embedder {
-  /*background-color: #EEEEEE;*/
+/*  background-color: #F09A9D;*/
   position:relative;
 }
 
@@ -402,7 +402,7 @@ a.zoom {
 }
 
 .embedder {
-  background-color: #FFFFFF;
+  background-color: #F09A9D;
 }
 
 figure.zoom:target~* {
