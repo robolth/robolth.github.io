@@ -19,7 +19,7 @@ h1 {
 .top_bar {
   padding: 0;
   font-size: 1.8em;
-  background-color: #EEEEEE;
+/*  background-color: #EEEEEE;*/
 }
 
 h2 {
@@ -88,7 +88,7 @@ body,
 }
 
 .menu {
-  /*background-color: #5995DA;*/
+  background-color: #5995DA;
   display: flex;
   flex-direction: column;
   justify-content: center;
