@@ -94,7 +94,6 @@ body,
   justify-content: center;
   align-items: flex-start;
   font-size: .75em;
-  height: max-content;
 }
 
 .content {
@@ -110,7 +109,6 @@ body,
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: max-content;
 }
 
 .container{
