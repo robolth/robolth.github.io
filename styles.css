@@ -171,8 +171,8 @@ body,
   }
 
   .header {
-/*    min-height: min-content;*/
-    min-height: max-content;
+    min-height: min-content;
+/*    min-height: max-content;*/
     flex-direction: row;
     justify-content: space-between;
   }
@@ -186,9 +186,11 @@ body,
     width: 50%;
   }
 
+  /*
   .mobile_specific {
     height:8em;
   }
+*/
   
   .desktop_specific {
     display:  none;
@@ -253,8 +255,8 @@ body,
   }
 
   .header {
-/*    min-height: min-content;*/
-    min-height: max-content;
+    min-height: min-content;
+/*    min-height: max-content;*/
     flex-direction: row;
     justify-content: space-between;
   }
@@ -288,9 +290,11 @@ body,
     height: 4em;
   }
 
+  /*
   .mobile_specific {
     height:6em;
   }
+  */
   
   .desktop_specific {
     display:  none;
