@@ -142,19 +142,18 @@ body,
   position:relative;
   padding:122.78% 0 0 0;  
   width:100%;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .embed {
   background-color: #F5CF8E;
+  
+  /*
   position: absolute;
   width:100%;
   height:100%;
   left:0;
   top:0;
+  */
 }
 
 /* Mobile Styles */
