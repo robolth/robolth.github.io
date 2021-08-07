@@ -478,7 +478,7 @@ figure.zoom figcaption {
   display: initial;
   z-index: 2;
   bottom: 0;
-  /*max-width: max-content;*/
+  max-width: max-content;
   width: 100%;
 /*  width: .9%*max-content;*/
   text-align: center;
