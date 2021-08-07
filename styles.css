@@ -41,10 +41,12 @@ figcaption {
   /*background-color: #F5CF8E;*/
 }
 
+/*
 .mobile_specific {
   background-color: #F5CF8E;
   min-height:max-content;
 }
+*/
 
 details summary:focus{
     outline: none;
@@ -57,6 +59,11 @@ details > summary {
 
 details > summary::-webkit-details-marker {
     display: none;
+}
+
+details[open] summary {
+    background: #69c773;
+    color: #333;
 }
 
 /*
