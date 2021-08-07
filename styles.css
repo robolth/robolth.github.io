@@ -479,17 +479,15 @@ figure.zoom figcaption {
   z-index: 2;
   bottom: 0;
   /*max-width: max-content;*/
-  /*width: 100%;*/
+  width: 100%;
+/*  width: .9%*max-content;*/
   text-align: center;
 
   padding: 5px 5px;
   
   /*position: sticky;*/
 
-  width: .9%*max-content;
-  
-/*  margin: 0 auto;*/
-  
+  margin: 0 auto;  
   background-color: #EEEEEE;
   
 }
