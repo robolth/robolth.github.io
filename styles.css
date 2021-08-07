@@ -92,7 +92,7 @@ body,
 }
 
 .menu {
-  background-color: #5995DA;
+/*  background-color: #5995DA;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,7 +108,7 @@ body,
 }
 
 .stack {
-  background-color: #EAEDF0;
+  /*background-color: #EAEDF0;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
