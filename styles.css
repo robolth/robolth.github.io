@@ -354,7 +354,8 @@ body>figure.zoom {
   contain: layout paint;
 }
 
-figure.zoom, figure.zoom img, figure.zoom a, figure.zoom iframe, figure.zoom div {
+/*figure.zoom, figure.zoom img, a.zoom {*/
+figure.zoom, figure.zoom img {
   display: none;
 }
 
