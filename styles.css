@@ -394,7 +394,16 @@ figure.zoom {
 a.zoom {
   background-color: #F5CF8E;
 }
+
 */
+
+.zoom {
+  background-color: #F5CF8E;
+}
+
+.embedder {
+  background-color: #FFFFFF;
+}
 
 figure.zoom:target~* {
   display: none;
@@ -508,4 +517,7 @@ figure.zoom figcaption {
   width: .9%*max-content;
   
 /*  margin: 0 auto;*/
+  
+  background-color: #EEEEEE;
+  
 }
