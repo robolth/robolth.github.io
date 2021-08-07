@@ -93,10 +93,12 @@ body,
 
 .menu {
 /*  background-color: #5995DA;*/
-  display: flex;
+
+/*  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+*/
   font-size: .75em;
 }
 
