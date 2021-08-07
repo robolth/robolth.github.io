@@ -43,6 +43,7 @@ figcaption {
 
 .mobile_specific {
   background-color: #F5CF8E;
+  min-height:max-content;
 }
 
 details summary:focus{
