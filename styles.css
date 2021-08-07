@@ -354,7 +354,7 @@ body>figure.zoom {
   contain: layout paint;
 }
 
-figure.zoom, figure.zoom img, a.zoom {
+figure.zoom, figure.zoom img, figure.zoom a, figure.zoom iframe, figure.zoom div {
   display: none;
 }
 
@@ -367,15 +367,10 @@ a.zoom {
   background-color: #F5CF8E;
 }
 
-*/
-
 .zoom {
   background-color: #F5CF8E;
 }
-
-.embedder {
-  background-color: #F09A9D;
-}
+*/
 
 figure.zoom:target~* {
   display: none;
@@ -434,19 +429,26 @@ figure#visitation:target,
 figure#yeux_intermediaires:target
 
 {
+  background-color: #5995DA;
   display: flex;
   flex-direction: column;
   top: 0;
   margin: auto;
   width: 100%;
-  height: 100%;
+
+  /*height: 100%;*/
+  
   align-content: center;
   justify-content: center;
   align-items: center;
 /*  min-height: max-content;*/
 }
 
-figure.zoom:target a.zoom {
+.embedder {
+  background-color: #F09A9D;
+}
+
+figure.zoom:target {
   display: initial;
 }
 
