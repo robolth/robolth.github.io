@@ -140,8 +140,6 @@ body,
 .embedder {
   background-color: #EEEEEE;
   position:relative;
-  padding:122.78% 0 0 0;  
-  width:100%;
 }
 
 .embed {
@@ -207,7 +205,12 @@ body,
     justify-content: space-between;
     height: 4em;
   }
-  
+
+  .aspect_1 {
+    padding:122.78% 0 0 0;  
+    width:100%;
+  }
+
 }
 
 /* Tablet Styles */
@@ -269,6 +272,11 @@ body,
     display:  none;
   }
   
+  .aspect_1 {
+    padding:122.78% 0 0 0;  
+    width:100%;
+  }
+  
 }
 
 /* Desktop Styles */
@@ -310,6 +318,11 @@ body,
       display: none;
   }
 
+  .aspect_1 {
+    padding-left:81.42%;
+    height:100%;
+  }
+  
 }
 
 
