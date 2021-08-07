@@ -54,9 +54,11 @@ details > summary::-webkit-details-marker {
     display: none;
 }
 
+/*
 .mobile_specific {
   background-color: #F5CF8E;
 }
+*/
 
 /*
 details > summary::before {
@@ -84,7 +86,7 @@ body,
 }
 
 .header {
-  background-color: #B2D6FF;
+/*  background-color: #B2D6FF;*/
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -173,7 +175,7 @@ body,
   }
 
   .header {
-    min-height: min-content;
+/*    min-height: min-content;*/
 /*    min-height: max-content;*/
     flex-direction: row;
     justify-content: space-between;
@@ -257,7 +259,7 @@ body,
   }
 
   .header {
-    min-height: min-content;
+/*    min-height: min-content;*/
 /*    min-height: max-content;*/
     flex-direction: row;
     justify-content: space-between;
