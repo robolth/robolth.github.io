@@ -43,7 +43,7 @@ figcaption {
 
 details summary:focus{
     outline: none;
-    background-color: #F5CF8E;
+    /*background-color: #F5CF8E;*/
 }
 
 details > summary {
