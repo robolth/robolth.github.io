@@ -330,7 +330,7 @@ body>figure.zoom {
   contain: layout paint;
 }
 
-figure.zoom, figure.zoom img, a.zoom, div.zoom {
+figure.zoom, figure.zoom img, a.zoom {
   display: none;
 }
 
@@ -413,7 +413,7 @@ figure#yeux_intermediaires:target
   min-height: max-content;
 }
 
-figure.zoom:target a.zoom div.zoom {
+figure.zoom:target a.zoom {
   display: initial;
 }
 
