@@ -70,10 +70,6 @@ details[open] > summary::before {
 }
 */
 
-.fullrez {
-  min-width:1908;
-}
-
 .page {
   display: flex;
   flex-wrap: nowrap;
@@ -447,7 +443,7 @@ figure#yeux_intermediaires:target
   align-content: center;
   justify-content: center;
   align-items: center;
-  min-height: max-content;
+/*  min-height: max-content;*/
 }
 
 figure.zoom:target a.zoom {
