@@ -167,7 +167,8 @@ body,
   }
 
   .header {
-    min-height: min-content;
+/*    min-height: min-content;*/
+    min-height: max-content;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -244,7 +245,8 @@ body,
   }
 
   .header {
-    min-height: min-content;
+/*    min-height: min-content;*/
+    min-height: max-content;
     flex-direction: row;
     justify-content: space-between;
   }
