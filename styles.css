@@ -41,6 +41,10 @@ figcaption {
   /*background-color: #F5CF8E;*/
 }
 
+.mobile_specific {
+  background-color: #F5CF8E;
+}
+
 details summary:focus{
     outline: none;
     /*background-color: #F5CF8E;*/
