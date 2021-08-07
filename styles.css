@@ -210,6 +210,16 @@ body,
     width:90%;
   }
 
+  .aspect_2 {
+    padding:141.06% 0 0 0;  
+    width:90%;
+  }
+
+  .aspect_3 {
+    padding:75% 0 0 0;  
+    width:90%;
+  }
+  
 }
 
 /* Tablet Styles */
@@ -275,7 +285,16 @@ body,
     padding:122.78% 0 0 0;  
     width:80%;
   }
-  
+
+  .aspect_2 {
+    padding:141.06% 0 0 0;  
+    width:90%;
+  }
+
+  .aspect_3 {
+    padding:75% 0 0 0;  
+    width:90%;
+  }
 }
 
 /* Desktop Styles */
@@ -319,6 +338,16 @@ body,
 
   .aspect_1 {
     padding-left:81.42%;
+    height:90%;
+  }
+
+  .aspect_2 {
+    padding-left:70.87%;
+    height:90%;
+  }
+
+  .aspect_3 {
+    padding-left:133.33%;
     height:90%;
   }
   
