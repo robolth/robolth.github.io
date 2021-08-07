@@ -48,6 +48,11 @@ figcaption {
 }
 */
 
+details {
+    border-radius: 3px;
+    background: #F5CF8E;
+}
+
 details summary:focus{
     outline: none;
     /*background-color: #F5CF8E;*/
@@ -59,11 +64,6 @@ details > summary {
 
 details > summary::-webkit-details-marker {
     display: none;
-}
-
-details[open] summary {
-    background: #69c773;
-    color: #333;
 }
 
 /*
