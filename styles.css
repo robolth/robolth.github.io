@@ -146,11 +146,11 @@ body,
 
 .embed {
   background-color: #F5CF8E;
+  width:100%;
+  height:100%;
   
   /*
   position: absolute;
-  width:100%;
-  height:100%;
   left:0;
   top:0;
   */
@@ -431,6 +431,7 @@ figure.zoom:target img {
 */
 }
 
+/*
 figure.zoom:target iframe {
   min-height: max-content;
   max-width: min-content;
@@ -441,6 +442,7 @@ figure.zoom:target iframe {
   width: max-content;
   align-self: center;
 }
+*/
 
 figure.zoom figcaption {
   display: initial;
