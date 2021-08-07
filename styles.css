@@ -80,7 +80,7 @@ body,
 }
 
 .header {
-  /*background-color: #B2D6FF;*/
+  background-color: #B2D6FF;
   display: flex;
   flex-direction: column;
   justify-content: left;
