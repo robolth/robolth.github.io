@@ -429,7 +429,7 @@ figure#visitation:target,
 figure#yeux_intermediaires:target
 
 {
-  background-color: #5995DA;
+/*  background-color: #5995DA;*/
   display: flex;
   flex-direction: column;
   top: 0;
@@ -442,9 +442,11 @@ figure#yeux_intermediaires:target
 /*  min-height: max-content;*/
 }
 
+/*
 .embedder {
   background-color: #F09A9D;
 }
+*/
 
 figure.zoom:target a.zoom {
   display: initial;
