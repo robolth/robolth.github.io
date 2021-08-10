@@ -430,7 +430,10 @@ figure#yeux_intermediaires:target
 
 {
   background-color: #5995DA;
-  display: flex;
+/*  display: flex;*/
+  display: inline-flex;
+  flex-wrap: wrap;
+  
   flex-direction: column;
   top: 0;
   margin: auto;
