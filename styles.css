@@ -492,5 +492,5 @@ figure.zoom figcaption {
   position: sticky;
 
   margin: 0 auto;  
-  background-color: #EEEEEE;  
+  /*background-color: #EEEEEE;*/
 }
